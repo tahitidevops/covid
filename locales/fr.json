@@ -24,16 +24,16 @@
     }
   },
   "incidents": {
-    "incidents": "Incidents",
-    "incident": "Incident",
+    "incidents": "Événéments",
+    "incident": "Événément",
     "scheduled": "Maintenance planifiée",
-    "incidents-history": "Historique des incidents",
-    "incidents-history-description": "Current & Historical operational interruptions to our service.",
-    "incidents-history-days-since-latest": "1 day since last incident | {days} days since last incident",
-    "latest-incidents": "Latest Incidents",
-    "current-status": "Current Status",
-    "current-status-description": "Keep up to date with real-time and historical interruptions to our service which may be affecting you.",
-    "no-incidents": "No incidents reported.",
+    "incidents-history": "Historique des événements",
+    "incidents-history-description": "Événéments passés et actuels sur le Covid19 en Polynésie-Française.",
+    "incidents-history-days-since-latest": "1 jour depuis le dernier événement | {days} jours depuis le dernier événement",
+    "latest-incidents": "Derniers événements",
+    "current-status": "Statut actuel",
+    "current-status-description": "Restez à jour sur le Covid19 en Polynésie-Française.",
+    "no-incidents": "Pas d'événements.",
     "resolved": "Confirmé",
     "unresolved": "Vérification en cours",
     "paginator": {
@@ -42,8 +42,8 @@
       "page": "Page"
     },
     "collapse": {
-      "show": "Voir les {count} incidents",
-      "hide": "Voir moins d'incidents"
+      "show": "Voir les {count} événements",
+      "hide": "Voir moins d'événements"
     }
   },
   "error": {
@@ -70,39 +70,39 @@
       },
       "api": {
         "title": "API",
-        "description": "The API Endpoints any developers can access to"
+        "description": "L'API utilisable par les développeurs"
       }
     }
   },
   "notifications": {
-    "title": "Subscribe to Updates",
-    "description": "Choose from the options below to automatically receive status updates.",
+    "title": "S'abonner pour recevoir les derniers événements",
+    "description": "Choisissez ci-dessous votre flux d'abonnement.",
     "buttons": {
-      "subscribe": "Subscribe",
-      "close": "Close"
+      "subscribe": "S'abonner",
+      "close": "Fermer"
     },
     "items": {
       "icalendar": {
-        "title": "Calendar",
-        "description": "Receive <strong>Scheduled Maintenances</strong> via <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">iCalendar</a>."
+        "title": "Agenda",
+        "description": "Recevoir <strong>les événements</strong> via <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">iCalendar</a>."
       },
       "feeds": {
-        "title": "Feeds",
-        "description": "Get <a href=\"{atom_url}\" target=\"_blank\" rel=\"noopener\">the Atom Feed</a> or <a href=\"{rss_url}\" target=\"_blank\" rel=\"noopener\">the RSS Feed</a>."
+        "title": "Flux",
+        "description": "Récupérer <a href=\"{atom_url}\" target=\"_blank\" rel=\"noopener\">le flux Atom</a> ou <a href=\"{rss_url}\" target=\"_blank\" rel=\"noopener\">le flux RSS</a>."
       },
       "twitter": {
         "title": "Twitter",
-        "description": "or <a href=\"https://twitter.com/{username}\" target=\"_blank\" rel=\"noopener\">view our Profile</a>."
+        "description": "ou <a href=\"https://twitter.com/{username}\" target=\"_blank\" rel=\"noopener\">voir notre profil</a>."
       },
       "support": {
         "title": "Support",
-        "description": "Visit our <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">Support Site</a>."
+        "description": "Visitez notre <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">Site de support</a>."
       },
       "webpush": {
-        "title": "Push",
-        "description": "Notifications delivered to your browser.",
-        "enable": "Enable Notifications",
-        "enabled": "Notifications are enabled for this browser."
+        "title": "Notifications Push",
+        "description": "Notifications du navigateur.",
+        "enable": "Autoriser les notifications",
+        "enabled": "Les notifications Push sont autorisés pour ce navigateur."
       }
     }
   }

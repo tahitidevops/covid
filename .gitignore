@@ -24,6 +24,7 @@ node_modules/
 
 # misc
 .statusfy/
+.history/
 
 # System Files
 .DS_Store
