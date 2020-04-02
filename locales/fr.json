@@ -1,0 +1,109 @@
+{
+  "title": "Covid19 Tahiti",
+  "description": "Suivi de l'évolution du Covid-19 en Polynésie française",
+  "labels": {
+    "contact": "Contact",
+    "support": "Support",
+    "home": "Accueil",
+    "powered-by": "Motorisé par",
+    "legal": "Mention légales",
+    "privacy": "Politique de confidentialité"
+  },
+  "statuses": {
+    "under-maintenance": "En maintenance",
+    "degraded-performance": "Performances dégradées",
+    "partial-outage": "Panne partielle",
+    "major-outage": "Panne majeure",
+    "operational": "RAS"
+  },
+  "dates": {
+    "formats": {
+      "short": "D MMM, YYYY",
+      "long": "D MMM, HH:mm UTC",
+      "month": "MMMM YYYY"
+    }
+  },
+  "incidents": {
+    "incidents": "Incidents",
+    "incident": "Incident",
+    "scheduled": "Maintenance planifiée",
+    "incidents-history": "Historique des incidents",
+    "incidents-history-description": "Current & Historical operational interruptions to our service.",
+    "incidents-history-days-since-latest": "1 day since last incident | {days} days since last incident",
+    "latest-incidents": "Latest Incidents",
+    "current-status": "Current Status",
+    "current-status-description": "Keep up to date with real-time and historical interruptions to our service which may be affecting you.",
+    "no-incidents": "No incidents reported.",
+    "resolved": "Confirmé",
+    "unresolved": "Vérification en cours",
+    "paginator": {
+      "previous": "Page précédente",
+      "next": "Page suivante",
+      "page": "Page"
+    },
+    "collapse": {
+      "show": "Voir les {count} incidents",
+      "hide": "Voir moins d'incidents"
+    }
+  },
+  "error": {
+    "go-back-link": "Revenir à l'accueil",
+    "404": {
+      "title": "Page introuvable",
+      "description": "La page que vous cherchez n'a pas été trouvée"
+    },
+    "other": {
+      "title": "Une erreur de notre part",
+      "description": "Veuillez accepter nos excuses, une erreur indéterminée empêche de compléter votre requête"
+    }
+  },
+  "systems": {
+    "items": {
+      "cdn": {
+        "title": "Capacité de traitement"
+      },
+      "dns": {
+        "title": "Stock de masques et de tests"
+      },
+      "site-delivery": {
+        "title": "Respect du confinement"
+      },
+      "api": {
+        "title": "API",
+        "description": "The API Endpoints any developers can access to"
+      }
+    }
+  },
+  "notifications": {
+    "title": "Subscribe to Updates",
+    "description": "Choose from the options below to automatically receive status updates.",
+    "buttons": {
+      "subscribe": "Subscribe",
+      "close": "Close"
+    },
+    "items": {
+      "icalendar": {
+        "title": "Calendar",
+        "description": "Receive <strong>Scheduled Maintenances</strong> via <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">iCalendar</a>."
+      },
+      "feeds": {
+        "title": "Feeds",
+        "description": "Get <a href=\"{atom_url}\" target=\"_blank\" rel=\"noopener\">the Atom Feed</a> or <a href=\"{rss_url}\" target=\"_blank\" rel=\"noopener\">the RSS Feed</a>."
+      },
+      "twitter": {
+        "title": "Twitter",
+        "description": "or <a href=\"https://twitter.com/{username}\" target=\"_blank\" rel=\"noopener\">view our Profile</a>."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Visit our <a href=\"{url}\" target=\"_blank\" rel=\"noopener\">Support Site</a>."
+      },
+      "webpush": {
+        "title": "Push",
+        "description": "Notifications delivered to your browser.",
+        "enable": "Enable Notifications",
+        "enabled": "Notifications are enabled for this browser."
+      }
+    }
+  }
+}
